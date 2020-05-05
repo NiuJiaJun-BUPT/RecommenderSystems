@@ -25,6 +25,7 @@ https://github.com/shenweichen/DeepCTR （实际实验过程中tensorflow版本�
     https://www.kaggle.com/c/avazu-ctr-prediction/data<br>
 **Movielens：**<br>
     将原本ratings进行处理，大于3为1，小于3为0，中立抛去，转化为CTR任务。
+    https://grouplens.org/datasets/movielens/
 ## Some resources
 * [《搜索与推荐中的深度学习匹配》之推荐篇 ](https://zhuanlan.zhihu.com/p/45849695)——黄冠 知乎文章
 * [《搜索与推荐中的深度学习匹配》之搜索篇 ](https://zhuanlan.zhihu.com/p/38296950)——黄冠 知乎文章
