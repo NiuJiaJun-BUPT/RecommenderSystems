@@ -6,7 +6,7 @@ Some academic resources in recommender system.
 #### Feature-based(Click-throught Rate predict methods) [文件跳转](https://github.com/NiuJiaJun-BUPT/RecommenderSystem/tree/master/Deep%20Learning/Match%20Function/CTR)
 * papers
 
-| Models  | Paper Url | Datasets & Metrics |
+| Models(点击查看阅读笔记)  | Paper Url | Datasets & Metrics |
 | ------------- | ------------- | ------------- |
 | AFM     | [IJCAI 2017][Attentional Factorization Machines:Learning the Weight of Feature Interactions via Attention Networks](https://www.ijcai.org/Proceedings/2017/0435.pdf)  | **Movielens tag**(RMSE:0.4325)<br> **Frappe**(RMSE:0.3102)|
 | AutoInt | [CIKM 2019][AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](https://arxiv.org/pdf/1810.11921.pdf)  | **Criteo**(AUC:0.8083 logloss:0.4434)<br>**Avazu**(AUC:0.7774 logloss:0.3811)<br>**Movielens-1M**(AUC:0.8488 logloss:0.3753)|
