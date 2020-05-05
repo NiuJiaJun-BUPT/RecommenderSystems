@@ -1,6 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default" >
-</script>
-
 # FLEN: Leveraging Field for Scalable CTR Prediction
 ## Main idea:
 深化特征域的概念，每个特征属于各自的特征域，该论文指出，在工业中可以将这些特征继续划分特征域，例如：age, gender, occupation等都属于用户域，类似地还
@@ -18,4 +15,6 @@ i.e., every feature is categorical and belongs to one and only one field.
 引用论文中各部分进行讲解：
 The first sub-module (denoted as S) is a sub-network with
 one hidden layer and one output neuron. It operates on the
-feature representation vectors, i.e. $ h_S=\sum_{i=0}^{\sum_n^N{K_n}}{w[i]x[i]} $
+feature representation vectors, i.e. <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_S=\sum_{i=0}^{\sum_n^N{K_n}}{w[i]x[i]}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;h_S=\sum_{i=0}^{\sum_n^N{K_n}}{w[i]x[i]}" title="h_S=\sum_{i=0}^{\sum_n^N{K_n}}{w[i]x[i]}" /></a> <br>
+
+其实第一部分
