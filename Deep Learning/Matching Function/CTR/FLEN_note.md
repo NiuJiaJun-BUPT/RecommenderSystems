@@ -13,8 +13,16 @@ i.e., every feature is categorical and belongs to one and only one field.
 ![FLEN](https://github.com/NiuJiaJun-BUPT/RecommenderSystem/blob/master/Deep%20Learning/Matching%20Function/CTR/pictures/FLEN_model.png)
 
 引用论文中各部分进行讲解：
-The first sub-module (denoted as S) is a sub-network with
-one hidden layer and one output neuron. It operates on the
+* The first sub-module (denoted as S) is a sub-network with one hidden layer and one output neuron. It operates on the
 feature representation vectors, i.e. <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_S=\sum_{i=0}^{\sum_n^N{K_n}}{w[i]x[i]}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;h_S=\sum_{i=0}^{\sum_n^N{K_n}}{w[i]x[i]}" title="h_S=\sum_{i=0}^{\sum_n^N{K_n}}{w[i]x[i]}" /></a> <br>
+其实第一部分就是把所有特征直接过一个LR，其他CTR模型中均有该模块，因为LR的记忆性。
+* The second sub-module is called an MF module, which focuses on learning inter-field feature interactions between
+each pair of the hierarchical fields. 
+第二部分被称为MF部分，该部分可以理解为对大的域进行交互，类似矩阵分解，矩阵分解一开始也是只输入user item的id embedding来做的。
+* The third sub-module is called an FM module, which focuses on learning intra-field feature interactions in each MF
+module.
+第三部分就是FM部分，对大的特征域下的各子特征域进行交叉。
+该部分可以理解为wide&deep中的 wide部分，只是更加复杂，在符号表述上也较难理解。
 
-其实第一部分
+## ideas：
+总的来说，这篇论文条理还是比较清晰的，因为公式和画图的原因，需要多看几遍才能理解模型结构。但是论文来源于工业界，有充足的实验证明这样的结构确实比FFM更好，**大小特征域，dropout机制均属于本论文的亮点**。
