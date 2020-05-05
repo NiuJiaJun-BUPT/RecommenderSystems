@@ -1,3 +1,6 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default" >
+</script>
+
 # FLEN: Leveraging Field for Scalable CTR Prediction
 ## Main idea:
 深化特征域的概念，每个特征属于各自的特征域，该论文指出，在工业中可以将这些特征继续划分特征域，例如：age, gender, occupation等都属于用户域，类似地还
@@ -10,3 +13,9 @@ such as recommendation systems and online advertising.
 CTR prediction systems are usually based on multi-field categorical features,
 i.e., every feature is categorical and belongs to one and only one field.
 ## Model architecture
+![FLEN](https://github.com/NiuJiaJun-BUPT/RecommenderSystem/blob/master/Deep%20Learning/Matching%20Function/CTR/pictures/FLEN_model.png)
+
+引用论文中各部分进行讲解：
+The first sub-module (denoted as S) is a sub-network with
+one hidden layer and one output neuron. It operates on the
+feature representation vectors, i.e. $ h_S=\sum_{i=0}^{\sum_n^N{K_n}}{w[i]x[i]} $
