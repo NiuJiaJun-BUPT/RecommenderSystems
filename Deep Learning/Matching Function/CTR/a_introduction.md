@@ -1,4 +1,4 @@
-* papers
+* **papers**
 
 | Models(点击查看阅读笔记)  | Paper Url | Datasets & Metrics |
 | ------------- | ------------- | ------------- |
@@ -7,11 +7,11 @@
 | FiBiNET | [RecSys 2019][FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction](https://arxiv.org/pdf/1905.09433.pdf) | **Criteo**(AUC:0.8103 logloss:0.4423)<br>**Avazu**(AUC:0.7832 logloss:0.3786)|
 | [FLEN](https://github.com/NiuJiaJun-BUPT/RecommenderSystem/blob/master/Deep%20Learning/Matching%20Function/CTR/FLEN_note.md)    | [arxiv 2019][FLEN: Leveraging Field for Scalable CTR Prediction](https://arxiv.org/pdf/1911.04690.pdf) |**Avazu**(AUC:0.7519 logloss:0.3944)|
 
-* codes
+* **codes**
 https://github.com/shenweichen/DeepCTR-Torch<br>
 https://github.com/shenweichen/DeepCTR （实际实验过程中tensorflow版本的ctr成绩更好）
 
-* datasets
+* **datasets**
 **criteo:**<br>
     small: http://labs.criteo.com/downloads/2014-kaggle-display-advertising-challenge-dataset/<br>
     large(tb级别数据，按天划分): https://labs.criteo.com/2013/12/download-terabyte-click-logs/<br>
