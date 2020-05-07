@@ -12,7 +12,7 @@ https://github.com/shenweichen/DeepCTR-Torch<br>
 https://github.com/shenweichen/DeepCTR （实际实验过程中tensorflow版本的ctr成绩更好）
 
 * **datasets**<br>
-**criteo:**<br>
+**Criteo:**<br>
     small: http://labs.criteo.com/downloads/2014-kaggle-display-advertising-challenge-dataset/<br>
     large(tb级别数据，按天划分): https://labs.criteo.com/2013/12/download-terabyte-click-logs/<br>
 **Avazu：**<br>
