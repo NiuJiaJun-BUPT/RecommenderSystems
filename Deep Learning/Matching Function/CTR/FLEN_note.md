@@ -10,7 +10,7 @@ such as recommendation systems and online advertising.
 CTR prediction systems are usually based on multi-field categorical features,
 i.e., every feature is categorical and belongs to one and only one field.
 ## Model architecture:
-![FLEN](https://github.com/NiuJiaJun-BUPT/RecommenderSystem/blob/master/Deep%20Learning/Matching%20Function/CTR/pictures/FLEN_model.png)
+![FLEN](https://github.com/NiuJiaJun-BUPT/RecommenderSystems/blob/master/Deep%20Learning/Matching%20Function/CTR/pictures/FLEN_model.png)
 
 引用论文中各部分进行讲解：
 * The first sub-module (denoted as S) is a sub-network with one hidden layer and one output neuron. It operates on the
