@@ -6,6 +6,7 @@
 | AutoInt | [CIKM 2019][AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](https://arxiv.org/pdf/1810.11921.pdf)  | **Criteo**(AUC:0.8083 logloss:0.4434)<br>**Avazu**(AUC:0.7774 logloss:0.3811)<br>**Movielens-1M**(AUC:0.8488 logloss:0.3753)|
 | FiBiNET | [RecSys 2019][FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction](https://arxiv.org/pdf/1905.09433.pdf) | **Criteo**(AUC:0.8103 logloss:0.4423)<br>**Avazu**(AUC:0.7832 logloss:0.3786)|
 | [FLEN](https://github.com/NiuJiaJun-BUPT/RecommenderSystems/blob/master/Deep%20Learning/Matching%20Function/CTR/FLEN_note.md)    | [arxiv 2019][FLEN: Leveraging Field for Scalable CTR Prediction](https://arxiv.org/pdf/1911.04690.pdf) |**Avazu**(AUC:0.7519 logloss:0.3944)|
+| FGCNN | [WWW 2019][Feature Generation by Convolutional Neural Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1904.04447.pdf) | **Criteo**(AUC:0.8022 logloss:0.5388)<br>**Avazu**(AUC:0.7883 logloss:0.3746)|
 
 * **codes**<br>
 https://github.com/shenweichen/DeepCTR-Torch<br>
