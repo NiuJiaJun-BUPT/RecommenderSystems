@@ -10,7 +10,16 @@
 * Researches show that people listen to music for multiple purposes, including interpersonal relationships promotion, moods optimization, identity development and surveillance.(研究结果表明，人民听歌受多维度影响)
 
 ## 贡献
-贡献：
 * We construct a large-scale music recommendation dataset on WeChat, which, compared to existing datasets like MSD (Bertin-Mahieux et al. 2011), contains elaborate personality-oriented user features, emotion-oriented user features and music features for in-depth modeling.
 * We reveal several key factors of users’ music preference, e.g. time and age, which may provide reference for music recommendation on social media platforms. 
 * We propose a PEIA model which employs hierarchical attention under deep framework to learn the correlations among user personality, user emotion and music, and achieves remarkable performance on a large real-world dataset. 
+
+## 框架图
+![PEIA](https://github.com/NiuJiaJun-BUPT/RecommenderSystems/blob/master/Music%20Recommendation/pictures/PEIA_model.jpg)
+可以很容易发现，该模型框架是基于Wide&Deep框架，右侧是LR和DNN，左侧可以看成是传统的特征交互部分，作者使用层级注意力的形式，分别提取用户人口属性特征与长期、短期特征的特征交互，得到l_att,s_att后，作者又利用了一层注意力网络，分别获得l_att和s_att的权重，二者加权相加获得z_att
+
+## 存在问题
+* 层级注意力那里，注意力分数的计算用了两层fc，明显引入了更多的参数，而且从以前实验来看注意力网络的训练效果并不好，AFM的效果不应该像论文里说的比DeepFM xDeepFM要好
+
+## 可学习的点
+* 层级注意力的使用，第二层其实目的就是计算两个Vector之间的权重，但是使用注意力与直接用两个可学习的scalar来说更加个性化，这种看似更复杂的方法，实际上会带来性能提升，更加方便，需要的参数量也较少。
