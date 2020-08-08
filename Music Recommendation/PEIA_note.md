@@ -23,3 +23,13 @@
 
 ## 可学习的点
 * 层级注意力的使用，第二层其实目的就是计算两个Vector之间的权重，但是使用注意力与直接用两个可学习的scalar来说更加个性化，这种看似更复杂的方法，实际上会带来性能提升，更加方便，需要的参数量也较少。
+
+### 论文句式：
+  * It is noteable that
+	* in a short-term manner. Since music is an emotion-loaded type of content, the emotion context also impacts music preferences, but in a short-term manner.
+### 引用句式：
+  * (some model）introduces/combines/employs
+	* some body proposed/
+### 词汇: 
+  Moderately adv 1.适度地 有节制地2.普通地；不过度地  A further improves B moderately, demonstrating the  effectiveness of the mechanism in our model.
+### 引用文章：
