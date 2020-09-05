@@ -7,4 +7,4 @@ Some academic resources in recommender systems.
 ## Interpretability Deep learning
 
 ## Music Recommendation [导航](https://github.com/NiuJiaJun-BUPT/RecommenderSystems/blob/master/Music%20Recommendation/AA_introdcution.md)
-### Playlist continue [导航]()
+### Playlist continue [导航](https://github.com/NiuJiaJun-BUPT/RecommenderSystems/blob/master/Music%20Recommendation/playlist_continue/AA_introduction.md)
